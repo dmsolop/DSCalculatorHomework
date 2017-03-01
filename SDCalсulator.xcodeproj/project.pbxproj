@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C69BC7B1CDB6F8500BF5126 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69BC7A1CDB6F8500BF5126 /* main.m */; };
+		2C69BC7E1CDB6F8500BF5126 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69BC7D1CDB6F8500BF5126 /* AppDelegate.m */; };
+		2C69BC811CDB6F8500BF5126 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C69BC801CDB6F8500BF5126 /* ViewController.m */; };
+		2C69BC841CDB6F8500BF5126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C69BC821CDB6F8500BF5126 /* Main.storyboard */; };
+		2C69BC861CDB6F8500BF5126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C69BC851CDB6F8500BF5126 /* Assets.xcassets */; };
+		2C69BC891CDB6F8500BF5126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C69BC871CDB6F8500BF5126 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C69BC761CDB6F8500BF5126 /* SDCalсulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SDCalсulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C69BC7A1CDB6F8500BF5126 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C69BC7C1CDB6F8500BF5126 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C69BC7D1CDB6F8500BF5126 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C69BC7F1CDB6F8500BF5126 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C69BC801CDB6F8500BF5126 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C69BC831CDB6F8500BF5126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C69BC851CDB6F8500BF5126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C69BC881CDB6F8500BF5126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C69BC8A1CDB6F8500BF5126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C69BC731CDB6F8500BF5126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C69BC6D1CDB6F8500BF5126 = {
+			isa = PBXGroup;
+			children = (
+				2C69BC781CDB6F8500BF5126 /* SDCalсulator */,
+				2C69BC771CDB6F8500BF5126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C69BC771CDB6F8500BF5126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C69BC761CDB6F8500BF5126 /* SDCalсulator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C69BC781CDB6F8500BF5126 /* SDCalсulator */ = {
+			isa = PBXGroup;
+			children = (
+				2C69BC7C1CDB6F8500BF5126 /* AppDelegate.h */,
+				2C69BC7D1CDB6F8500BF5126 /* AppDelegate.m */,
+				2C69BC7F1CDB6F8500BF5126 /* ViewController.h */,
+				2C69BC801CDB6F8500BF5126 /* ViewController.m */,
+				2C69BC821CDB6F8500BF5126 /* Main.storyboard */,
+				2C69BC851CDB6F8500BF5126 /* Assets.xcassets */,
+				2C69BC871CDB6F8500BF5126 /* LaunchScreen.storyboard */,
+				2C69BC8A1CDB6F8500BF5126 /* Info.plist */,
+				2C69BC791CDB6F8500BF5126 /* Supporting Files */,
+			);
+			path = "SDCalсulator";
+			sourceTree = "<group>";
+		};
+		2C69BC791CDB6F8500BF5126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2C69BC7A1CDB6F8500BF5126 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C69BC751CDB6F8500BF5126 /* SDCalсulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C69BC8D1CDB6F8500BF5126 /* Build configuration list for PBXNativeTarget "SDCalсulator" */;
+			buildPhases = (
+				2C69BC721CDB6F8500BF5126 /* Sources */,
+				2C69BC731CDB6F8500BF5126 /* Frameworks */,
+				2C69BC741CDB6F8500BF5126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SDCalсulator";
+			productName = "SDCalсulator";
+			productReference = 2C69BC761CDB6F8500BF5126 /* SDCalсulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C69BC6E1CDB6F8500BF5126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SD;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Дмитрий Солоп";
+				TargetAttributes = {
+					2C69BC751CDB6F8500BF5126 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 2C69BC711CDB6F8500BF5126 /* Build configuration list for PBXProject "SDCalсulator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C69BC6D1CDB6F8500BF5126;
+			productRefGroup = 2C69BC771CDB6F8500BF5126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C69BC751CDB6F8500BF5126 /* SDCalсulator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C69BC741CDB6F8500BF5126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C69BC891CDB6F8500BF5126 /* LaunchScreen.storyboard in Resources */,
+				2C69BC861CDB6F8500BF5126 /* Assets.xcassets in Resources */,
+				2C69BC841CDB6F8500BF5126 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C69BC721CDB6F8500BF5126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C69BC811CDB6F8500BF5126 /* ViewController.m in Sources */,
+				2C69BC7E1CDB6F8500BF5126 /* AppDelegate.m in Sources */,
+				2C69BC7B1CDB6F8500BF5126 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C69BC821CDB6F8500BF5126 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C69BC831CDB6F8500BF5126 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C69BC871CDB6F8500BF5126 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C69BC881CDB6F8500BF5126 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C69BC8B1CDB6F8500BF5126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C69BC8C1CDB6F8500BF5126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C69BC8E1CDB6F8500BF5126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SDCalсulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BigNerdRanch.SDCal-ulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2C69BC8F1CDB6F8500BF5126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SDCalсulator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "BigNerdRanch.SDCal-ulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C69BC711CDB6F8500BF5126 /* Build configuration list for PBXProject "SDCalсulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C69BC8B1CDB6F8500BF5126 /* Debug */,
+				2C69BC8C1CDB6F8500BF5126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C69BC8D1CDB6F8500BF5126 /* Build configuration list for PBXNativeTarget "SDCalсulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C69BC8E1CDB6F8500BF5126 /* Debug */,
+				2C69BC8F1CDB6F8500BF5126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C69BC6E1CDB6F8500BF5126 /* Project object */;
+}
